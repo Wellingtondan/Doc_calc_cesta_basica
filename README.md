@@ -58,6 +58,20 @@ Conforme exemplo no Módulo Fiscal  a CST destacada em nota, estava considerando
 
 Nesse caso não é necessário parametrizar a “Situação tributária NF de ICMS Calculado”, pois é utilizada para informar nas entradas de mercadorias de carne quando não é tomado crédito na entrada o lançamento deve ser considerado como “Outras” no Livro Registro de Entradas com a CST x90.
 
+Para o caso das tributações tributadas, os campos Redução Cálculo Substituição Tributária, Redução da Base ICMS para Cálculo do ST e Alíquota da Base ICMS para Cálculo do ST, devem estar as configurações padrões:
+
+`° Não Reduz`
+
+`° %Tributado`
+
+`° Reduz ICMS Próprio`
+
+> ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/673ff156-f3d7-4006-9a6c-dcc6b0619840)
+
+E para as tributações ST as parametrizações precisam estar configuradas conforme redução para ICMS calculado, verifique na imagem abaixo:
+
+> ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/ae372115-a496-46bc-ae1f-9638b694a9c4)
+
 > Tipo Calc.ICMS *(Observação: 01 - Termo Acordo ICMS Calculado)*
 
 Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS diferente da alíquota aplicada no cálculo do crédito/débito do ICMS.
