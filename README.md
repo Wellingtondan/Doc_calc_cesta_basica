@@ -89,7 +89,9 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 - Calc para tributações de carne, aplicado zero para não tomar crédito na saída.
 
 > [Conferência Calc Trib.tribut_7](https://github.com/Wellingtondan/Doc_calc_cesta_basica/blob/main/6.3%20Confer%C3%AAncia%20Trib_Tribut_Calc_Cesta_7.sql)
+
 > [Conferência Calc Trib.st_12](https://github.com/Wellingtondan/Doc_calc_cesta_basica/blob/main/6.1%20Confer%C3%AAncia%20Trib_red_Calc_Cesta_12.sql)
+
 > [Conferência Calc Trib.st_18](https://github.com/Wellingtondan/Doc_calc_cesta_basica/blob/main/6.2%20Confer%C3%AAncia%20Trib_red_Calc_Cesta_18.sql)
 
 ## Considerações
