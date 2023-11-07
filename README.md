@@ -20,11 +20,11 @@ O Anexo II (Reduções de Base de Cálculo), Artigo 3º do RICMS-SP traz os iten
 
 |***Produto***  |***Cortes Resfriados Frango*** | 
 | ----------| --------------|
-|Valor do produto | R$ 1.700,14 |
-|Base de Cálculo ICMS | R$ 1.700,14 |
-|Valor ICMS (Base de Cálculo ICMS x alíquota efetiva (12%)) | R$ 204,02 |
-|Alíquota ICMS | 12% |
-|CST (Situação tributária NF) | 000 |
+| Valor do produto | R$ 1.700,14 |
+| Base de Cálculo ICMS | R$ 1.700,14 |
+| Valor ICMS (Base de Cálculo ICMS x alíquota efetiva (12%)) | R$ 204,02 |
+| Alíquota ICMS | 12% |
+| CST (Situação tributária NF) | 000 |
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a3c09bc2-c5ce-4e03-83ff-cba18b6cbaf5)
 
