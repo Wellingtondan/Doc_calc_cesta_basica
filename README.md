@@ -87,3 +87,8 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 - Calc para tributações ST com redução de 12% para 7%.
 - Calc para tributações Tributadas com alíquota interestadual de 12%, mas com Calc de 7%, para que possa ser utilizado na saída do livro fiscal.
 - Calc para tributações de carne, aplicado zero para não tomar crédito na saída.
+
+
+## Considerações
+
+As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado por Mariana e orientações adicionais da Analista Bruna.
