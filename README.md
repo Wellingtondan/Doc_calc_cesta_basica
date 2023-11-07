@@ -86,7 +86,6 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 - Calc para tributações ST com redução de 18% para 7%.
 - Calc para tributações ST com redução de 12% para 7%.
 - Calc para tributações Tributadas com alíquota interestadual de 12%, mas com Calc de 7%, para que possa ser utilizado na saída do livro fiscal.
-- Calc para tributações de carne, aplicado zero para não tomar crédito na saída.
 
 > [Conferência Calc Trib.tribut_7](https://github.com/Wellingtondan/Doc_calc_cesta_basica/blob/main/6.3%20Confer%C3%AAncia%20Trib_Tribut_Calc_Cesta_7.sql)
 
