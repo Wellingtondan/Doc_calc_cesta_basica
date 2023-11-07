@@ -18,17 +18,13 @@ O Anexo II (Reduções de Base de Cálculo), Artigo 3º do RICMS-SP traz os iten
 
 `Exemplo (Nota fiscal)`
 
-Produto - Cortes Resfriados Frango
-
-Valor do produto: R$ 1.700,14
-
-Base de Cálculo ICMS = R$ 1.700,14
-
-Valor ICMS (Base de Cálculo ICMS x alíquota efetiva (12%)) = R$ 204,02
-
-Alíquota ICMS: 12%
-
-CST (Situação tributária NF) = 000
+|***Produto***  |***Cortes Resfriados Frango*** | 
+| ----------| --------------|
+|Valor do produto | R$ 1.700,14 |
+|Base de Cálculo ICMS | R$ 1.700,14 |
+|Valor ICMS (Base de Cálculo ICMS x alíquota efetiva (12%)) | R$ 204,02 |
+|Alíquota ICMS | 12% |
+|CST (Situação tributária NF) | 000 |
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a3c09bc2-c5ce-4e03-83ff-cba18b6cbaf5)
 
@@ -50,7 +46,7 @@ Note que a alíquota considerada para o ICMS é de 7%, o qual o valor de ICMS an
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/6bcaf707-d170-41af-ba06-91c295af5520)
 
-Observação: Parâmetro ICMS Calculado no Módulo Fiscal atende aos outros tipos de Tipo Calc. tratados na Tributação por UF e não somente a estes dois, dados como exemplo.
+**Observação:** Parâmetro ICMS Calculado no Módulo Fiscal atende aos outros tipos de Tipo Calc. tratados na Tributação por UF e não somente a estes dois, dados como exemplo.
 
 ## Grade de tributação por UF
 
@@ -62,8 +58,36 @@ Conforme exemplo no Módulo Fiscal  a CST destacada em nota, estava considerando
 
 Nesse caso não é necessário parametrizar a “Situação tributária NF de ICMS Calculado”, pois é utilizada para informar nas entradas de mercadorias de carne quando não é tomado crédito na entrada o lançamento deve ser considerado como “Outras” no Livro Registro de Entradas com a CST x90.
 
-Tipo Calc.ICMS (Observação: 01 - Termo Acordo ICMS Calculado)
+> Tipo Calc.ICMS *(Observação: 01 - Termo Acordo ICMS Calculado)*
 
 Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS diferente da alíquota aplicada no cálculo do crédito/débito do ICMS.
 
+> ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/cd742bdf-83bf-4c39-a4fd-70aa54cec574)
 
+`Exemplo do cálculo sistema:`
+
+|***Descrição***  |***Valor*** | 
+| ----------| --------------| 
+| Alíquota do Fornecedor |  12% | 
+
+| Alíquota do Acordo |  7% | 
+
+| Nota 100 - Valor da mercadoria | R$ 100,00 | 
+
+| ICMS da operação: R$ 100,00 x 12% |  R$ 12,00 | 
+
+| ICMS calculado conforme acordo R$ 100,00 x 7% | R$ 7,00 | 
+
+`No custo do produto e na apuração de ICMS será considerado o valor de R$ 7,00 e não R$ 12,00.`
+
+
+`-- ICMS Calc (ICMS Calculado)` - Precisa estar configurado no módulo Fiscal na aba Registro Fiscal em “Emissão Livros” como ICMS calculado para que o lançamento no livro seja informado o crédito de 7% corretamente sem a necessidade de estorno do ICMS. No custo do produto e na apuração de ICMS será considerado o calculo referente a 7%.
+
+`-- ICMS Calc (ICMS Normal)` - Para esse caso quando o módulo Fiscal estiver no parâmetro na aba Registro Fiscal em “Emissão Livros” como ICMS Normal, precisa ser realizado o estorno do ICMS, para que o valor na saída seja considerado 7%, como o sistema não realiza o cálculo automático para as saídas dos produtos como Cesta básica, no custo do produto e na apuração de ICMS será considerado o cálculo referente a 12%, por isso, cabe realizar o estorno para que o custo do produto fique corrigido para 7%. Essa operação é/ou(era) realizada no sistema C5 anterior no qual existem alguns clientes mais antigos que se utilizam desse modelo, já para as novas implantações TOTVS a “Emissão Livros” é realizada pelo ICMS calculado.
+
+## Scripts
+
+- Calc para tributações ST com redução de 18% para 7%.
+- Calc para tributações ST com redução de 12% para 7%.
+- Calc para tributações Tributadas com alíquota interestadual de 12%, mas com Calc de 7%, para que possa ser utilizado na saída do livro fiscal.
+- Calc para tributações de carne, aplicado zero para não tomar crédito na saída.
