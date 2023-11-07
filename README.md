@@ -69,13 +69,9 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 |***Descrição***  |***Valor*** | 
 | ----------| --------------| 
 | Alíquota do Fornecedor |  12% | 
-
 | Alíquota do Acordo |  7% | 
-
 | Nota 100 - Valor da mercadoria | R$ 100,00 | 
-
 | ICMS da operação: R$ 100,00 x 12% |  R$ 12,00 | 
-
 | ICMS calculado conforme acordo R$ 100,00 x 7% | R$ 7,00 | 
 
 `No custo do produto e na apuração de ICMS será considerado o valor de R$ 7,00 e não R$ 12,00.`
