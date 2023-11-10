@@ -56,7 +56,7 @@ Conforme exemplo no Módulo Fiscal  a CST destacada em nota, estava considerando
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/359fdba0-5bd2-4df5-ac04-7301e09b9fb1)
 
-Nesse caso não é necessário parametrizar a “Situação tributária NF de ICMS Calculado”, pois é utilizada para informar nas entradas de mercadorias de carne quando não é tomado crédito na entrada o lançamento deve ser considerado como “Outras” no Livro Registro de Entradas com a CST x90.
+Nesse caso não é necessário parametrizar a “Situação tributária NF de ICMS Calculado”, pois é utilizada para informar nas entradas de mercadorias de carne quando não é tomado crédito na entrada, o lançamento deve ser considerado como “Outras” no Livro Registro de Entradas com a CST x90.
 
 Para o caso das tributações tributadas, os campos Redução Cálculo Substituição Tributária, Redução da Base ICMS para Cálculo do ST e Alíquota da Base ICMS para Cálculo do ST, devem estar as configurações padrões:
 
@@ -112,3 +112,5 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 ## Considerações
 
 As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado pela coordenadora Mariana e orientações adicionais da Analista Bruna.
+
+Documento validado pela Coordenadora Sofia (tributário) e Coordenador Thiago (Fiscal).
