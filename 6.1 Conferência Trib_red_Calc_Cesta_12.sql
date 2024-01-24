@@ -29,14 +29,14 @@ SELECT
         WHEN c.INDREDUZBASEST = 'S' THEN 'Reduz base'
         ELSE c.INDREDUZBASEST
     END AS 'REDUZ_CALC_ST',
-	     c.TIPCALCICMSSELO,
+    c.TIPCALCICMSSELO,
     
     CASE 
         WHEN c.TIPCALCICMSSELO = 'C' THEN 'Reduz ICMS calculado'
         WHEN c.TIPCALCICMSSELO = 'P' THEN 'Reduz ICMS Próprio'
         ELSE c.TIPCALCICMSSELO
     END AS 'ALIQ_BASE_ICMS_CALC_ST',
-             c.TIPREDUCICMSCALCST,	
+    c.TIPREDUCICMSCALCST,	
     
     CASE 
         WHEN c.TIPREDUCICMSCALCST = 'S' THEN '% Tributado ST'
