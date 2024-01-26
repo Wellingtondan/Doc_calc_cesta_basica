@@ -46,7 +46,8 @@ Note que a alíquota considerada para o ICMS é de 7%, o qual o valor de ICMS an
 
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/6bcaf707-d170-41af-ba06-91c295af5520)
 
-**Observação:** Parâmetro ICMS Calculado no Módulo Fiscal atende aos outros tipos de Tipo Calc. tratados na Tributação por UF e não somente a estes dois, dados como exemplo.
+>[!NOTE]
+>**Observação:** Parâmetro ICMS Calculado no Módulo Fiscal atende aos outros tipos de Tipo Calc. tratados na Tributação por UF e não somente a estes dois, dados como exemplo.
 
 ## Grade de tributação por UF
 
@@ -111,6 +112,7 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 
 ## Considerações
 
-As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado pela coordenadora Mariana e orientações adicionais da Analista Bruna.
-
-Documento elaborado por Wellington, validado pela Coordenadora Sofia (tributário) e Coordenador Thiago (Fiscal).
+>[!IMPORTANT]
+>As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado pela coordenadora Mariana e orientações adicionais da Analista Bruna.
+>
+>Documento elaborado por Wellington, validado pela Coordenadora Sofia (tributário) e Coordenador Thiago (Fiscal).
