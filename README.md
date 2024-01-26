@@ -89,7 +89,9 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 | ICMS da operação: R$ 100,00 x 12% |  R$ 12,00 | 
 | ICMS calculado conforme acordo R$ 100,00 x 7% | R$ 7,00 | 
 
-`No custo do produto e na apuração de ICMS será considerado o valor de R$ 7,00 e não R$ 12,00.`
+```
+No custo do produto e na apuração de ICMS será considerado o valor de R$ 7,00 e não R$ 12,00.
+```
 
 
 `-- ICMS Calc (ICMS Calculado)` - Precisa estar configurado no módulo Fiscal na aba Registro Fiscal em “Emissão Livros” como ICMS calculado para que o lançamento no livro seja informado o crédito de 7% corretamente sem a necessidade de estorno do ICMS. No custo do produto e na apuração de ICMS será considerado o calculo referente a 7%.
