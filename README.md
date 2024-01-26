@@ -113,4 +113,4 @@ Utilizado para quando a nota fiscal de entrada/saída tem alíquota de ICMS dife
 
 As informações contidas neste documento são baseadas nos materiais compartilhados pelo coordenador Thiago, referentes ao `"Módulo Fiscal"`. Para as questões relacionadas à `"Grade UF"`, recebi material compartilhado pela coordenadora Mariana e orientações adicionais da Analista Bruna.
 
-Documento validado pela Coordenadora Sofia (tributário) e Coordenador Thiago (Fiscal).
+Documento elaborado por Wellington, validado pela Coordenadora Sofia (tributário) e Coordenador Thiago (Fiscal).
