@@ -32,6 +32,8 @@ As entradas de mercadorias de operações interestaduais com alíquota de 12%, s
 
 ### 2.Consulta de Notas Fiscais
 
+#### 2.1 Indústria / Distribuidor
+
 Aqui nesse caminho é apenas para identificar como são lançados os dados parametrizados para o ICMS Calc. Quando cliente opta para Emissão Livros “ICMS Calculado”, os dados sobem corretamente com os cálculos devidos.
 
 Mas segue as observações que precisam estar configuradas quando for utilizadas para os produtos de Cesta básica:
@@ -39,6 +41,10 @@ Mas segue as observações que precisam estar configuradas quando for utilizadas
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/2f951fd7-621f-4f9d-a9ce-d3ab7d74be45)
 
 Note que a alíquota considerada para o ICMS é de 7%, o qual o valor de ICMS anterior de 204,02 equivalente a 12%, esta resultando a 119,01 com a carga tributária para 7%, conforme ICMS calculado.
+
+#### 2.2 Microempresa
+
+Para os fornecedores optantes pelo Simples Nacional, o ICMS Calc é utilizado para cálculo da redução ST, sendo assim, 
 
 ### 3.Registro de Entradas (Livro)
 
