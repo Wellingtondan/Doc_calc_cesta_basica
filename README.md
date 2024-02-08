@@ -55,11 +55,22 @@ Como a maioria das entradas das mercadorias de fornecedores de nossos clientes e
 >     - Alíquota e valor correspondente ao crédito (Simples Nacional)
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a8778d0a-547d-4ef4-b6ad-251a66e57f7b)
 > 
->- **Consulta de Notas Fiscais**
+>- **Consulta de Notas Fiscais:**
 >     - Alíquota de Aproveitamento do crédito de ICMS é aplicado sobre o valor total dos produtos
 >        - O valor de crédito é informado na **consulta de Notas Fiscais** no campo "Simples Nacional" indicado na ilustração logo abaixo
 >        - Base - Vlr.Total dos produtos 468,00 informado na **Nota Fiscal de exemplo** / Aliq.ICMS - Percentual de 2,56% informado nos **Dados Adicionais** / Vlr.ICMS - É o valor (Resultado) que representa a alíquota de 2,56% sobre o Vlr.Total de produtos de 468,00, sendo o Vlr.ICMS o resultado de 11,98 que esta indicado em **Dados Adicionais** em aproveitamento de crédito
 >![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/1d3a8569-4349-41b9-acd9-0bf55a4c7ebb)
+>
+>- **Detalhamento dos documentos gerados nos registros CR20/CR25 GIA SP - Simples Nacional:**
+>     - Esse é o relatório de confirmação dos lançamentos de notas que possuem crédito de fornecedores Simples Nacional
+>       
+>![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a1377983-db2a-49cc-933a-19b01cfb1db8)
+>
+>- **Apuração do Imposto**
+>     - O Valor de aproveitamento de crédito de ICMS infomado nos **Dados Adicionais** de 11,98 foi somado juntamente com as notas que possuem o crédito, que totalizaram os 54,18 no **Detalhamento dos documentos gerados nos registros CR20/CR25 GIA SP - Simples Nacional** 
+>![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/c55681f2-4455-41f0-ab17-6e45b68cb9b1)
+
+
 
 ### 3.Registro de Entradas (Livro)
 
