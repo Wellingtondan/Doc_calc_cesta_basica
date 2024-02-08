@@ -57,17 +57,9 @@ Como a maioria das entradas das mercadorias de fornecedores de nossos clientes e
 > 
 >- **Consulta de Notas Fiscais**
 >     - Alíquota de Aproveitamento do crédito de ICMS é aplicado sobre o valor total dos produtos
->        - Esse valor de crédito é informado na consulta de Notas Fiscais no campo indicado na ilustração logo abaixo em "Simples Nacional"
->        - Base - Vlr.Total dos produtos 468,00 informado na **Nota Fiscal de exemplo** / Aliq.ICMS - Percentual de 2,56% informado nos **Dados Adicionais** / Vlr.ICMS - É o valor (Resultado) que representa a alíquota de 2,56% sobre o Vlr.Total de produtos de 468,00, sendo o Vlr.ICMS o resultado de 11,98 que esta indicado em Dados Adicionais em aproveitamento de crédito
->
+>        - O valor de crédito é informado na **consulta de Notas Fiscais** no campo "Simples Nacional" indicado na ilustração logo abaixo
+>        - Base - Vlr.Total dos produtos 468,00 informado na **Nota Fiscal de exemplo** / Aliq.ICMS - Percentual de 2,56% informado nos **Dados Adicionais** / Vlr.ICMS - É o valor (Resultado) que representa a alíquota de 2,56% sobre o Vlr.Total de produtos de 468,00, sendo o Vlr.ICMS o resultado de 11,98 que esta indicado em **Dados Adicionais** em aproveitamento de crédito
 >![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/1d3a8569-4349-41b9-acd9-0bf55a4c7ebb)
-
-
-
-
-o ICMS Calc é utilizado para cálculo da redução ST, sendo assim, 
-
-
 
 ### 3.Registro de Entradas (Livro)
 
