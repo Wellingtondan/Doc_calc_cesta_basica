@@ -55,7 +55,7 @@ Como a maioria das entradas das mercadorias de fornecedores de nossos clientes e
 >- **(Dados Adicionais) Aproveitamento do Crédito de ICMS**
 >     - Alíquota e valor correspondente ao crédito (Simples Nacional)
 >
-> ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a8778d0a-547d-4ef4-b6ad-251a66e57f7b)
+>![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a26defab-ba8d-4fa9-aa5d-868399aa6656)
 > 
 >- **Consulta de Notas Fiscais:**
 >     - Alíquota de Aproveitamento do crédito de ICMS é aplicado sobre o valor total dos produtos
