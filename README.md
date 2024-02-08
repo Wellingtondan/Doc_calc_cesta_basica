@@ -44,8 +44,6 @@ Note que a alíquota considerada para o ICMS é de 7%, o qual o valor de ICMS an
 
 #### 2.2 Microempresa
 
-Como a maioria das entradas das mercadorias de fornecedores de nossos clientes em SP são Atacadistas/Indústria/Distribuidores da mesma titularidade (Indústria), não foi encontrado um exemplo de fornecedores optantes pelo Simples Nacional que exemplifique em lançamento de entrada quando a mercadoria há previsão de Substituição tributária com benefício de Cesta Básica quando parametrizado o Calc, mas apenas para ilustrar o campo "Simples Nacional" na aba `"Consulta de Notas Fiscais"` vamos dar enfase de como é apresentado o aproveitamento de crédito de ICMS.
-
 Como a maioria das entradas de mercadorias dos fornecedores de nossos clientes em São Paulo são de Atacadistas/Indústrias/Distribuidores da mesma titularidade (Indústria), não foi encontrado um exemplo de fornecedores optantes pelo Simples Nacional que exemplifique o lançamento de entrada quando a mercadoria está sujeita à Substituição Tributária com benefício de Cesta Básica ao ser parametrizado na Alíquota do ICMS Calc. No entanto, apenas para ilustrar o campo "Simples Nacional" na aba `"Consulta de Notas Fiscais"`, vamos enfatizar como o aproveitamento de crédito de ICMS é apresentado."
 
 >[!NOTE]
