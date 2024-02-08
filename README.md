@@ -44,7 +44,27 @@ Note que a alíquota considerada para o ICMS é de 7%, o qual o valor de ICMS an
 
 #### 2.2 Microempresa
 
-Para os fornecedores optantes pelo Simples Nacional, o ICMS Calc é utilizado para cálculo da redução ST, sendo assim, 
+Como a maioria das entradas das mercadorias de fornecedores de nossos clientes em SP são Atacadistas/Indústria/Distribuidores da mesma titularidade (Indústria), não foi encontrado um exemplo de fornecedores optantes pelo Simples Nacional que exemplifique em lançamento de entrada quando a mercadoria há previsão de Substituição tributária com benefício de Cesta Básica quando parametrizado o Calc, mas apenas para ilustrar o campo "Simples Nacional" na aba `"Consulta de Notas Fiscais"` vamos dar enfase de como é apresentado o aproveitamento de crédito de ICMS.
+
+Nota Fiscal de exemplo:
+
+![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/60335332-7a91-45f6-8043-cede8081c0ef)
+
+- Aproveitando de Crédito de ICMS
+
+> ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a8778d0a-547d-4ef4-b6ad-251a66e57f7b)
+
+
+
+
+>![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/1d3a8569-4349-41b9-acd9-0bf55a4c7ebb)
+
+
+
+
+o ICMS Calc é utilizado para cálculo da redução ST, sendo assim, 
+
+
 
 ### 3.Registro de Entradas (Livro)
 
