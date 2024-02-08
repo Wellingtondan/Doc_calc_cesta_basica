@@ -46,14 +46,19 @@ Note que a alíquota considerada para o ICMS é de 7%, o qual o valor de ICMS an
 
 Como a maioria das entradas das mercadorias de fornecedores de nossos clientes em SP são Atacadistas/Indústria/Distribuidores da mesma titularidade (Indústria), não foi encontrado um exemplo de fornecedores optantes pelo Simples Nacional que exemplifique em lançamento de entrada quando a mercadoria há previsão de Substituição tributária com benefício de Cesta Básica quando parametrizado o Calc, mas apenas para ilustrar o campo "Simples Nacional" na aba `"Consulta de Notas Fiscais"` vamos dar enfase de como é apresentado o aproveitamento de crédito de ICMS.
 
-Nota Fiscal de exemplo:
-
-![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/60335332-7a91-45f6-8043-cede8081c0ef)
-
-- Aproveitando de Crédito de ICMS
-
+>[!NOTE]
+>- **Nota Fiscal de exemplo:**
+>     - Valor total dos produtos
+>![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/fc6c8600-b109-45c5-a3ea-111c90941996)
+>
+>- **(Dados Adicionais) Aproveitando de Crédito de ICMS**
+>     - Alíquota e valor correspondente ao crédito (Simples Nacional)
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a8778d0a-547d-4ef4-b6ad-251a66e57f7b)
-
+> 
+>- **Consulta de Notas Fiscais**
+>     - (%) Aproveitamento do crédito de ICMS é aplicado sobre o valor total dos produtos
+>         - Esse valor de crédito é utilizado na consulta de Notas Fiscais no campo indicado na ilustração logo abaixo em "Simples Nacional"
+>         - Base - Vlr.Total dos produtos 468,00 informado na **Nota Fiscal de exemplo** / Aliq.ICMS - Percentual de 2,56% informado nos **Dados Adicionais** / Vlr.ICMS - É o valor (Resultado) que representa a alíquota de 2,56% sobre o Vlr.Total de produtos de 468,00, sendo o valor Vlr.ICMS o resultado de 11,98 que esta indicado em Dados Adicionais em aproveitamento de crédito
 
 
 
