@@ -51,7 +51,7 @@ Como a maioria das entradas das mercadorias de fornecedores de nossos clientes e
 >     - Valor total dos produtos
 >![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/fc6c8600-b109-45c5-a3ea-111c90941996)
 >
->- **(Dados Adicionais) Aproveitando de Crédito de ICMS**
+>- **(Dados Adicionais) Aproveitamento do Crédito de ICMS**
 >     - Alíquota e valor correspondente ao crédito (Simples Nacional)
 > ![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/a8778d0a-547d-4ef4-b6ad-251a66e57f7b)
 > 
