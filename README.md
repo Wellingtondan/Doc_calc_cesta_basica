@@ -74,9 +74,9 @@ Como a maioria das entradas de mercadorias dos fornecedores de nossos clientes e
 >
 >![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/c55681f2-4455-41f0-ab17-6e45b68cb9b1)
 
-
-
 ### 3.Registro de Entradas (Livro)
+
+#### 3.1 Indústria / Distribuidor
 
 É verificado o valor da operação (Total da entrada), Alíquota de 7% que é resultante da redução de Cesta, Imposto Creditado (valor de ICMS) e também o “COD” que para esse caso é o 1 (Operações com crédito de Imposto).
 
@@ -84,6 +84,12 @@ Como a maioria das entradas de mercadorias dos fornecedores de nossos clientes e
 
 >[!NOTE]
 >**Observação:** Parâmetro ICMS Calculado no Módulo Fiscal atende aos outros tipos de Tipo Calc. tratados na Tributação por UF e não somente a estes dois, dados como exemplo.
+
+#### 3.2 Microempresa
+
+Para os fornecedores do Simples Nacional, os lançamentos dos valores de impostos são realizados por `"Apuração do Imposto"`, os lançamentos de ICMS Valores Fiscais aparecem no Livro (Registro) de Entrada apenas como Base de Cálculo ou Valor da Operação que é Total de Produtos, Alíquotas e o Imposto Creditado como Nulo, e aparecem nas observações do total geral com o código 3 que são `Operações Sem Crédito de Imposto-Outras` conforme  `(a) Código de Valores Fiscais Operações e Prestações`.
+
+>![image](https://github.com/Wellingtondan/Doc_calc_cesta_basica/assets/119419112/7f506dfe-545b-4019-9ff3-2bb3d8738b5d)
 
 ## Grade de tributação por UF
 
